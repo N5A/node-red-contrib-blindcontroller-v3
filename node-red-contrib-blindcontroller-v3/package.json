@@ -1,0 +1,43 @@
+{
+  "name": "node-red-contrib-blindcontroller-v3",
+  "version": "3.0.0",
+  "description": "Node-RED nodes for automated control of roller blinds based on sun position and weather conditions (Node.js v22+ compatible, 0-100% cloud coverage, and persistent season mode).",
+  "main": "blindcontroller.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "blindcontroller": "blindcontroller.js"
+    }
+  },
+  "keywords": [
+    "node-red",
+    "blind",
+    "blinds",
+    "roller",
+    "shutter",
+    "shade",
+    "sun",
+    "sunpos",
+    "automation",
+    "home-assistant",
+    "nodejs-22"
+  ],
+  "author": "Alisdair Smyth",
+  "contributors": [
+    "Kolitar J'Odan (Fork Maintainer)"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/N5A/node-red-contrib-blindcontroller-v3.git"
+  },
+  "homepage": "https://github.com/N5A/node-red-contrib-blindcontroller-v3#readme",
+  "bugs": {
+    "url": "https://github.com/N5A/node-red-contrib-blindcontroller-v3/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
