@@ -44,8 +44,9 @@ Because this package registers the same `blindcontroller` and `multiblindcontrol
 **Do NOT chain Weather into `sunpos` in series.** `sunpos` overwrites `msg.topic` and `msg.payload`, which discards any upstream weather properties. Wire `sunpos` (`topic: "sun"`) and your weather payload (`topic: "weather"`) **in parallel** into `Blind Controller`:
 
 ```text
-[10M Timer] ──┬──► [sunpos (topic: "sun")] ──────────────────┐
-              └──► [Weather Source (topic: "weather")] ──────┼──► [Blind Controller]
+[10M Timer] ──┬──► [sunpos (topic: "sun")] ─────────────┐
+              └──► [Weather Source (topic: "weather")] ─┼──► [Blind Controller]
+[Season Mode (topic: "mode")]  ─────────────────────────┘   (Optional, can change in node)
 ```
 
 ### Home Assistant Weather Wiring (No Function Node Needed)
