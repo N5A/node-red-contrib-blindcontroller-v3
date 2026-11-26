@@ -5,7 +5,7 @@ A maintained fork of `node-red-contrib-blindcontroller` updated for **Node.js v2
 ## Credits & Acknowledgements
 * **Original Author:** [Alisdair Smyth]([https://github.com](https://github.com/alisdairjsmyth/node-red-contrib-blindcontroller)) — creator of the original sun-shading geometry engine and Node-RED blind controller nodes.
 * **V2 Reference:** [jncanches (`node-red-contrib-blindcontroller-v2`)](https://flows.nodered.org/node/node-red-contrib-blindcontroller-v2) — intermediate Node-RED v1+ and Home Assistant subflow adaptation.
-* **V3 Maintainer:** Kolitar J'Odan ([://github.com](https://://github.com)) — Node.js v22+ compatibility fixes, native `0`–`100%` cloud coverage support, persistent season mode via `node.context()`, and output-aligned status pills.
+* **V3 Maintainer:** Kolitar J'Odan ([://github.com]([https://://github.com](https://github.com/N5A/node-red-contrib-blindcontroller-v3))) — Node.js v22+ compatibility fixes, native `0`–`100%` cloud coverage support, persistent season mode via `node.context()`, and output-aligned status pills.
 
 ---
 
